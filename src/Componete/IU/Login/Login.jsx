@@ -1,8 +1,8 @@
 import React from 'react'
 import swal from 'sweetalert';
 import { Iconos } from '../Iconos/Iconos'
-import '../Login/Login.css'
-
+import './Login.css'
+import { NavLink } from 'react-router-dom'
 
 export const Login = () => {
 return (
@@ -11,7 +11,7 @@ return (
         <div className='entry'>
             <input  type="text" name="username" required />
             <input type="password" name='password' required  />
-            <button className='button1' type="submit" value="Iniciar Sesión">Iniciar Sesión </button>
+            <NavLink to='/Administrador'><button className='button1' type="submit" value="Iniciar Sesión">Iniciar Sesión </button></NavLink>
         </div>
             <h4>O</h4>
         <div className='line'>

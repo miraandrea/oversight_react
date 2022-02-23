@@ -1,13 +1,22 @@
-
 import './App.css';
 import { MaintStart } from './Componete/Pege/MainStart/MaintStart';
+import { AdmiMainMenu } from './Componete/Pege/AdmiMainMenu/AdmiMainMenu';
+
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom"
+
 function App() {
   return (
-    <div className="App">
-      
-    <MaintStart/>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<MaintStart />} />
+        <Route path='/Administrador' element={<AdmiMainMenu />} />
+      </Routes>
+    </BrowserRouter>
 
-    </div>
   );
 }
 

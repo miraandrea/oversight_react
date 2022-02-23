@@ -1,0 +1,15 @@
+/* @media (max-width:460px){ */
+    .search{
+        padding: 4%;
+        padding-left: 8%;
+    }
+    .search input{
+        width: 73%;
+        font-size: 107%;
+    }
+    .iconsearch{
+        padding-top: 2%;
+        height: 55%;
+        width: 10%;
+    }
+/* } */

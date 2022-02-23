@@ -1,10 +1,10 @@
 import React from 'react'
-import '../TextOversight/TextOversight.css'
 
-export const TextOversight = () => {
+export const TextOversight = ({text}) => {
 return (
     <div>
-    <p>Oversight</p>
+        
+    <h1 className={text}>Oversight</h1>
     
     </div>
 )
