@@ -12,7 +12,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<MaintStart />} />
+        <Route path='/' element={<MaintStart/>} />
         <Route path='/Administrador' element={<AdmiMainMenu />} />
       </Routes>
     </BrowserRouter>
