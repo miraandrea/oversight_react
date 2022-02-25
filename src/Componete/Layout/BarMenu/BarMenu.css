@@ -2,7 +2,8 @@
     .menuhr{
         transform: rotate(90deg);
         position: relative;
-        right: 30%;
+        right: 31%;
+        top: -72px;
     }
     .menuhr hr{
         background-color: #1d9df6;

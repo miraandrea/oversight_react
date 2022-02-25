@@ -8,12 +8,15 @@
     }
     .hrtop{
         padding-left: 15%;
+        position: relative;
+        top: -25px;
     }
     .hrtop hr{
-        width: 83%;
+        width: 89%;
         background-color: #1d9df6;
     }
     .oversight-text{
         font-size: 21px;
+        padding-top: 6%;
     }
 /* } */
