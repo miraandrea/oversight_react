@@ -1,0 +1,53 @@
+.Register{
+    margin-top: 0%;
+    font-size: 50px;
+    font-weight: 1000;
+    color: black;
+    padding-top: 30%;
+    font-family: 'DM Mono', monospace;
+    font-family: 'Pacifico', cursive;
+}
+
+.line5{
+    border: 1px solid #1D9DF6;
+    background-color: rgb(21, 105, 240);
+}
+
+
+.userNameRegistre{
+    border-radius: 5px;
+    border: 1px solid #1D9DF6;
+    width: 80px;
+    height: 18px;
+    
+}
+
+.lastName{
+    border-radius: 5px;
+    border: 1px solid #1D9DF6;
+    width: 80px;
+    height: 18px;
+    
+}
+
+
+/* .last{
+    
+    
+} */
+
+.number{
+    border-radius: 5px;
+    border: 1px solid #1D9DF6;
+    width: 190px;
+}
+
+.number1{
+    display: flex;
+    justify-content: center;
+}
+.cancel{
+    border-radius: 5px;
+    border: none;
+    background-color: #FA1200;
+}

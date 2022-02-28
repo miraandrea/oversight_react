@@ -1,35 +1,50 @@
 import React from 'react'
 import { IoMdHome } from "react-icons/io";
 import { IoMdPersonAdd } from "react-icons/io";
-import { MdOutlineCloudDownload } from "react-icons/md";
+import { Register } from '../Register/Register';
 import { IoExitOutline } from "react-icons/io5";
-import { NavLink } from 'react-router-dom';
+
 import swal from '@sweetalert/with-react';
 import './IconMenu.css'
 
 export const IconMenu = () => {
   return (
     <div className='menu'>
-        <IoMdHome className='iconmenu'/>
+        <IoMdHome onClick={()=>Mostrar()} className='iconmenu'/>
         <p>Inicio</p>
-        {/* El icono de menu es opcional */}
-        {/* <MdOutlineCloudDownload className='iconmenu' />
-        <p>Importar</p> */}
-        <IoExitOutline className='iconmenu' />
-        <p>Salir</p>
-    <div>
-        <IoMdPersonAdd onClick={()=>MstrarAlerta()} className='iconmenu' /> 
+        <IoMdPersonAdd onClick={()=>MostrarAlerta1()} className='iconmenu' /> 
         <p>Registrar</p>
-    </div>
+        <IoExitOutline onClick={()=>MostrarAlerta2()} className='iconmenu'  /> <p>Salir</p>
+        
+    
     </div>
   )
 }
-const MstrarAlerta=()=>{
+
+const MostrarAlerta1=()=>{
+  swal (
+    <div>
+  <Register></Register>
+
+    </div>
+  )
+}
+
+const Mostrar=()=>{
+  swal(
+    <div>
+
+    </div>
+  )
+}
+
+
+const MostrarAlerta2=()=>{
   swal (
     <div>
       <input type="text" placeholder='nombre'/>
       <p>hola</p>
-      <button>kk</button>
+      <button>Registrar</button>
     </div>
   )
 }

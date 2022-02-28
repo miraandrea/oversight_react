@@ -1,4 +1,8 @@
 .maincard{
+    height: 1px;
+    width: 10vw;
+    
+    padding-left: 30%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     position: relative;
