@@ -16,10 +16,20 @@ export const Register = () => {
       <input className='number' type="number" placeholder='Documento Identidad'/>
     </div>
       
+      <div className='btn_Registrar'>
+      <button className='Registrar' >Registrar</button>
+
+      </div>
       
-      <button className='cancel'>Cancelar</button>
-      <button>Registrar</button>
+
+      <select className='desple'>
+        <option value="1">Seleccione un rol</option> 
+        <option value="2">Estudiante</option> 
+        <option value="3">Docente</option>
+
+      </select>
+      
     
-    </div>
+  </div>
   )
 }

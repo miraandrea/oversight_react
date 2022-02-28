@@ -21,13 +21,14 @@ export const IconMenu = () => {
   )
 }
 
-const MostrarAlerta1=()=>{
-  swal (
-    <div>
-  <Register></Register>
+const MostrarAlerta1=(btn)=>{
+  swal({
 
-    </div>
-  )
+    buttons: {
+      confirm : {text:'cancelar',className:'sweet-warning'}},
+    content: <Register></Register>
+
+  })
 }
 
 const Mostrar=()=>{

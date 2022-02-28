@@ -51,3 +51,26 @@
     border: none;
     background-color: #FA1200;
 }
+
+.Registrar{
+    color: rgb(255, 255, 255);
+    background-color: #1D9DF6;
+    border: none;
+    width: 94px;
+    height: 33px;
+
+}
+
+.btn_Registrar{
+    
+    width: 10px;
+   height: 20px;
+}
+
+.desple{
+    border-radius: 5px;
+    border: 1px solid #1D9DF6;
+    width: 75%;
+    height: 30px;
+    color: #C4C4C4;
+}

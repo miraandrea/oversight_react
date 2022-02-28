@@ -15,4 +15,13 @@
         font-size: 15px;
         color: rgb(189, 189, 218);
     }
+    .sweet-warning{
+        background-color: #f61d1d;
+    }
+
+    .swal-footer{
+        width: 10px;
+        margin-right: 35%;
+        background-color: rgb(255, 255, 255);
+    }
 /* } */
